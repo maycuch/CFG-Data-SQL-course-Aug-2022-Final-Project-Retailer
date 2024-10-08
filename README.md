@@ -2,8 +2,7 @@
 This is a final prject of CFG Data&SQL Kickstarter course where we learnt about MySQL over period of 8 weeks, one evening session a week.
 This project is a fictional database for a toy retailer. 
 
-- it was created in August 2022
-- It was created in MySQL
+- it was created in August 2022 using MySQL
 - it has 5 tables:
   - product_range
   - vendors_offer_range

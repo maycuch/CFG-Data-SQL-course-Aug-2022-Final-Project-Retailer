@@ -13,6 +13,7 @@ This project is a fictional database for a toy retailer.
 <img width="603" alt="EER DIAGRAM - Retailer" src="https://github.com/user-attachments/assets/f010d227-3fbc-4d90-b185-0b041c3e9468">
 
 - all data are fictitious
+
 Actions taken on above 5 tables:
   - created one consolidated `view` with all information about products in the range, including product_name, vendor_name, vendor_cost_price, retail_price, calucalted margin, stock levels
   - function `online_margin_check` which recommends whether the product should be ranged online based on their margin (products with low margin would be unprofitable to range online due to additional costs of packaging, shipping)

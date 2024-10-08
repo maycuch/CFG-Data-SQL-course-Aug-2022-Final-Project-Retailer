@@ -15,7 +15,8 @@ This project is a fictional database for a toy retailer.
 
 
 Actions taken on above 5 tables:
-  - created one consolidated `view` with all information about products in the range, including product_name, vendor_name, vendor_cost_price, retail_price, calucalted margin, stock levels
+  - created one consolidated `view` with all information about products in the range, including product_name, vendor_name, vendor_cost_price, retail_price, calucalted margin, stock levels with data populated from different tables
+  - tables are linked via Foreign Keys
   - function `online_margin_check` which recommends whether the product should be ranged online based on their margin (products with low margin would be unprofitable to range online due to additional costs of packaging, shipping)
   - subquery which finds which products have very low stock
   - procedure that orders products in range by vendor and stock value

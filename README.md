@@ -3,6 +3,7 @@ This is a final prject of CFG Data&SQL Kickstarter course where we learnt about 
 This project is a fictional database for a toy retailer. 
 
 - it was created in August 2022 using MySQL
+- all data are fictitious
 - it has 5 tables:
   - product_range
   - vendors_offer_range
@@ -12,7 +13,6 @@ This project is a fictional database for a toy retailer.
 
 <img width="603" alt="EER DIAGRAM - Retailer" src="https://github.com/user-attachments/assets/f010d227-3fbc-4d90-b185-0b041c3e9468">
 
-- all data are fictitious
 
 Actions taken on above 5 tables:
   - created one consolidated `view` with all information about products in the range, including product_name, vendor_name, vendor_cost_price, retail_price, calucalted margin, stock levels
